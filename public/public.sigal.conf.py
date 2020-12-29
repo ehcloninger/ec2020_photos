@@ -213,6 +213,8 @@ links = [ ('Photos', 'https://ericcloninger.com/photos.html'),
 
 # List of files to copy from the source directory to the destination.
 # A symbolic link is used if ``orig_link`` is set to True (see above).
+files_to_copy = [('../../favicon.ico', 'favicon.ico')]
+
 # files_to_copy = (('extra/robots.txt', 'robots.txt'),
 #                  ('extra/favicon.ico', 'favicon.ico'),)
 

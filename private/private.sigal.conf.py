@@ -6,7 +6,7 @@
 # build` command, or in the 'index.md' file of the source directory.
 # The priority order is: cli option > settings file > index.md file
 
-title = "Eric Cloninger's Private"
+title = "Eric Cloninger Private Photos"
 
 # ---------------------
 # General configuration
@@ -213,8 +213,7 @@ links = [ ('Photos', 'https://ericcloninger.com/photos.html'),
 
 # List of files to copy from the source directory to the destination.
 # A symbolic link is used if ``orig_link`` is set to True (see above).
-# files_to_copy = (('extra/robots.txt', 'robots.txt'),
-#                  ('extra/favicon.ico', 'favicon.ico'),)
+files_to_copy = [('../../favicon.ico', 'favicon.ico')]
 
 # Colorbox theme config
 # The column size is given in number of column of the css grid of the Skeleton
