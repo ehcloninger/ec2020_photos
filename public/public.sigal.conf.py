@@ -182,10 +182,10 @@ ignore_files = []
 # write_html = True
 
 # Name of the generated HTML files
-# output_filename = 'index.html'
+output_filename = 'index.html'
 
 # Add output filename (see above) to the URLs
-# index_in_url = False
+index_in_url = True
 
 # A list of links (tuples (title, URL))
 links = [ ('Photos', 'https://ericcloninger.com/photos.html'),
